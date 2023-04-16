@@ -11,11 +11,7 @@ text = input()
 print('Введите n:')
 n = int(input())
 
-alphabet = {}
-x = ord('A')
-z =  ord('z')
-
-def code (char_one, char_last, n):
+def gen_alphabet (char_one, char_last, n):
     alphabet = {}
     char_one_dig = ord(char_one)
     char_last_dig = ord(char_last)
@@ -26,14 +22,17 @@ def code (char_one, char_last, n):
             alphabet[chr(i)] = chr(i + n - (char_last_dig - char_one_dig + 1))
     return alphabet
 
-alphabet = code('A', 'Z', n)
-alphabet.update(code('a', 'z', n))
+def code (text, n):
+    alphabet = {}
+    alphabet = gen_alphabet('A', 'Z', n)
+    alphabet.update(gen_alphabet('a', 'z', n))
+    text_code = ''
+    for char in text:
+        if char in alphabet:
+            text_code += alphabet[char]
+        else:
+            text_code += char
+    print (text_code)
 
-text_code = ''
-for char in text:
-    if char in alphabet:
-        text_code += alphabet[char]
-    else:
-        text_code += char
+code(text, n)
 
-print (text_code)
