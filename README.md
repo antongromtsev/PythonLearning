@@ -1,13 +1,17 @@
 # PythonLearning
 выполены домашние задания:  
-============================================================================================  
+
+1
+============================================================================================ 
 - [ ] 7 -   https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task7.py  
 - [ ] 8 -   https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task8.py  
 - [ ] 9 -   https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task9.py  
 - [ ] 10 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task10.py  
 - [ ] 11 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task11.py  
 - [ ] 12 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_1/homework/task12.py  
-  
+
+2  
+ ============================================================================================  
 - [ ] 19 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task19.py  
 - [ ] 20 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task20.py  
 - [ ] 21 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task21.py  
