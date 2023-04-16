@@ -23,7 +23,6 @@ def gen_alphabet (char_one, char_last, n):
     return alphabet
 
 def code (text, n):
-    alphabet = {}
     alphabet = gen_alphabet('A', 'Z', n)
     alphabet.update(gen_alphabet('a', 'z', n))
     text_code = ''
