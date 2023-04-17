@@ -9,9 +9,9 @@
 #  Задачу решить доступным способом
 #  Задачу решить с помощью применения функции map и lambda
 
-def convert (number):
-    func = [bin(number), oct(number), hex(number)]
-    l = tuple(map(lambda x: x[2:], func))
+def convert (number_):
+    fn = [bin, oct, hex]
+    l = tuple(map(lambda fn: str(fn(number_))[2:], fn))
     return l
 
-print(convert(3))
+print(convert(15))
