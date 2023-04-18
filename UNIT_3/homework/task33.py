@@ -7,3 +7,22 @@
 #     Ввод: x –первое слово, например, питон. n – количество слов для сравнения, например 6.
 #     Дальше вводятся 6 слов, например: поросенок, титан, итог, лавка, погост, кино.
 #     Вывод - слова, похожие на питон: титан, погост, кино
+from functools import reduce
+
+
+word = 'питон'
+n = 6
+word_list = ['поросенок', 'титан', 'итог', 'лавка', 'погост', 'кино']
+
+vowels = ('а', 'у', 'о', 'ы', 'и', 'э', 'я', 'ю', 'ё', 'е')
+
+cod_word = ''.join(map(lambda i: str(i) if word[i] in vowels else '',
+                       range(len(word))))
+
+lst = list(filter(lambda word: reduce(
+    lambda code_word, cod_word_list: code_word == cod_word_list,
+    (cod_word,
+     ''.join(map(lambda i: str(i) if word[i] in vowels else '',
+                 range(len(word)))))), word_list))
+
+print(lst)

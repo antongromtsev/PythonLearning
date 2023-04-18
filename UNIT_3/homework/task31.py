@@ -11,3 +11,8 @@
 #
 #     Примечание:
 #     https://pythonist.ru/lyambda-funkczii-dlya-sortirovki-razlichnyh-spiskov-v-python/
+
+lst = [('Иванов', 100), ('Петров', 200), ('Сидоров', 200), ('Аоробьев', 100), ('Лунин', 200)]
+
+lst = sorted(lst, key = lambda x:(-x[1], x[0]))
+print(lst)
