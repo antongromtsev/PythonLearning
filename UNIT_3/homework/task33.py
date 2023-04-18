@@ -15,9 +15,9 @@
 from functools import reduce
 
 
-word = 'питон'
+word = 'итон'
 n = 6
-word_list = ['поросенок', 'титан', 'итог', 'лавка', 'погост', 'кино']
+word_list = ['поросенок', 'титан', 'итог', 'лавка', 'погост', 'кино', 'авар']
 
 vowels = ('а', 'у', 'о', 'ы', 'и', 'э', 'я', 'ю', 'ё', 'е')
 
@@ -30,4 +30,4 @@ lst = list(filter(lambda word: reduce(
      ''.join(map(lambda i: str(i) if word[i] in vowels else '',
                  range(len(word)))))), word_list))
 
-print(lst)
+print(word, lst)
