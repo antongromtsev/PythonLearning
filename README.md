@@ -18,3 +18,11 @@
 - [ ] 22 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task22.py  
 - [ ] 23 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task23.py  
 - [ ] 24 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_2/homework/task24.py  
+
+3
+ ============================================================================================  
+ - [ ] 30 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_3/homework/task30.py 
+ - [ ] 31 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_3/homework/task31.py 
+ - [ ] 32 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_3/homework/task32.py 
+ - [ ] 33 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_3/homework/task33.py 
+ - [ ] 34 -  https://github.com/antongromtsev/PythonLearning/blob/master/UNIT_3/homework/task34.py
