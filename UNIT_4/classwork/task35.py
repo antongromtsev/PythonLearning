@@ -9,11 +9,11 @@ output_one = pickle.dumps(list_one)
 output_two = pickle.dumps(list_two)
 
 
-with open ('data.pkl', 'wb') as f:
+with open('data.pkl', 'wb') as f:
     pickle.dump(list_one, f)
     pickle.dump(list_two, f)
 
-with open ('data.pkl', 'rb') as f:
+with open('data.pkl', 'rb') as f:
     input_one = pickle.load(f)
     input_two = pickle.load(f)
 
