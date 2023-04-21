@@ -31,7 +31,10 @@ print(lst)
 # №2
 
 def transpose(matrix):
-    matrix_t = [[].append(y) for x in matrix for y in x]
+    matrix_t = []
+    matrix_t = [[matrix[x][i] for x in range(len(matrix))] for i in range(len(matrix[0]))]
     return matrix_t
 
-print(transpose([[1, 2, 3], [4, 5, 6]]))
+matrix = [[1, 2, 3], [4, 5, 6]]
+print(matrix)
+print(transpose(matrix))
