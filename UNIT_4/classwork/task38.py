@@ -25,14 +25,16 @@
 # >>> msum(matrix)
 
 # №1
+print('Задание №1')
 lst = [y for y in range(10) for _ in range(y)]
 print(lst)
 
 # №2
+print('Задание №2')
 
 
 def transpose(matrix):
-    matrix_t = [[matrix[x][i] for x in range(len(matrix))] 
+    matrix_t = [[matrix[x][i] for x in range(len(matrix))]
                 for i in range(len(matrix[0]))]
     return matrix_t
 
@@ -42,6 +44,7 @@ print(matrix)
 print(transpose(matrix))
 
 # №3
+print('Задание №3')
 
 
 def msum(matrix):
